@@ -25,4 +25,6 @@ test:
     - yarn build
   script:
     - yarn test
+    - yarn test:documents
+    - yarn test:form-validations
     - yarn report
